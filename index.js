@@ -16,7 +16,7 @@ function nameToAttributes(arr) {
 function nameToAttributes(arr) {
   return arr.map(
     function (user) {
-
+      return `${user.name} is from ${user.hometown}`
     }
   )
 }
