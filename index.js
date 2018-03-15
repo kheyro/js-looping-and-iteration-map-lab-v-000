@@ -12,3 +12,7 @@ function nameToAttributes(arr) {
     }
   )
 }
+
+function nameToAttributes(arr) {
+  
+}
