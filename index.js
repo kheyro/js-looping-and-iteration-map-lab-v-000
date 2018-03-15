@@ -14,5 +14,9 @@ function nameToAttributes(arr) {
 }
 
 function nameToAttributes(arr) {
-  
+  return arr.map(
+    function (user) {
+
+    }
+  )
 }
