@@ -8,6 +8,7 @@ function nameToAttributes(arr) {
   return arr.map(
     function (user) {
       splitted = user.split(' ')
+      console.log(splitted)
       return Object.assign({}, { firstName: splitted[0], lastName: splitted[1] })
     }
   )
